@@ -1,0 +1,110 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1558486012-817176f84c6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=919&q=80");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #011a92;
+  transition: background-image ease-in 1.5s;
+}
+
+.rain {
+  background-image: url('https://images.unsplash.com/photo-1517398629-9d24ea1f4f94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+}
+
+.snow {
+  background-image: url("https://images.unsplash.com/photo-1521827877890-e62d1e4b80f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80");
+
+}
+
+.clouds {
+  background-image: url("https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+}
+
+.sunny {
+  background-image: url('https://images.unsplash.com/photo-1553430799-71e600f54aff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1834&q=80');
+}
+
+h4 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .1em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-style: normal;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  border-radius: 20px;
+  margin-bottom: 15px;
+  height: 30px;
+  border: 2px solid #011992;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: .1em;
+  color: #011a92;
+  background-color: #fcf5ed;
+  text-align: center;
+}
+
+button {
+  border-radius: 20px;
+  height: 40px;
+  border: 2px solid #011992;
+  box-shadow: 5px 5px #011992;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: .1em;
+  color: #011a92;
+  background-color: #fcf5ed;
+}
+
+button:hover {
+  color: #fcf5ed;
+  background-color: #011a92;
+  border: 2px solid #fcf5ed;
+}
+
+#outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fcf5ed;
+  border-radius: 25px;
+  width: 300px;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+}
+
+#weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#current {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
